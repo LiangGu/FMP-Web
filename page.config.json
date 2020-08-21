@@ -1,0 +1,51 @@
+{
+  "title": "FMP-运价中台",
+  "externals": {
+    "polyfill": {
+      "type": "js",
+      "url": [
+        "/static/js/fros.polyfill.js"
+      ]
+    },
+    "pdf": {
+      "type": "js",
+      "url": [
+        "/static/js/pdf/pdf.worker.js",
+        "/static/js/pdf/pdf.js"
+      ]
+    },
+    "amap": {
+      "type": "js",
+      "url": [
+        "https://webapi.amap.com/maps?v=1.4.13&key=caf5091bf8cb455d97072ba7340cfd08&plugin=AMap.ToolBar,Map3D,AMap.PolyEditor,AMap.MapType,AMap.MouseTool,AMap.CircleEditor,AMap.CircleMarker"
+      ]
+    },
+    "bmap": {
+      "type": "js",
+      "url": [
+        "https://api.map.baidu.com/getscript?v=3.0&ak=YMolUM5TF7Wgw5yM9dmZUMfx0HfDqtIo",
+        "http://api.map.baidu.com/library/GeoUtils/1.2/src/GeoUtils_min.js",
+        "http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.js"
+      ]
+    },
+    "bmapcss": {
+      "type": "css",
+      "url": [
+        "http://api.map.baidu.com/library/DrawingManager/1.4/src/DrawingManager_min.css"
+      ]
+    },
+    "qmap": {
+      "type": "js",
+      "url": [
+        "https://map.qq.com/api/js?v=2.exp&key=WSCBZ-ZUEKX-V4R45-T5RQ4-BS6YH-WXFZN"
+      ]
+    },
+    "ztreejs": {
+      "type": "js",
+      "url": [
+        "/static/js/ztree/js/jquery-3.3.1.min.js",
+        "/static/js/ztree/js/jquery.ztree.all.min.js"
+      ]
+    }
+  }
+}
