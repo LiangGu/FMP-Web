@@ -1,9 +1,8 @@
-# frosui 单页面应用（SPA + vue-router）模板
+# FMP-运价中台
 # frosui-base-vue-cli-3.0
 
 ## Checkout
 ```
-
 git config --global http.sslVerify false 
 git clone https://e.coding.net/SinoTest/fros-ui.git
 
